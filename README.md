@@ -57,10 +57,11 @@ If you are using Linux, you can run the pre-compiled binary without needing to c
    ./xbox_soundtrack_tui
    ```
 
-### Option 2: Running from Source
-If you are on Windows, macOS, or prefer to run the Python scripts directly:
+### Option 2: Running from Source (Windows / macOS / Linux)
+The Python source code is entirely cross-platform and fully compatible with Windows. However, as I do not have a Windows machine, I am unable to test it natively or compile a standalone `.exe` release. Windows users can easily run the application directly from the source code, or submit a pull request with a compiled executable!
 
 **Prerequisites:**
+
 - Python 3.10+
 - `ffmpeg` installed and available in your system's PATH.
 
