@@ -26,7 +26,10 @@ class XboxFTP:
             '/Harddisk0/Partition1/TDATA/fffe0000/music',
             'E:/TDATA/fffe0000/music',
             '/E-Drive/TDATA/fffe0000/music',
-            '/TDATA/fffe0000/music' # Some FTP servers drop the drive letter
+            '/TDATA/fffe0000/music', # Some FTP servers drop the drive letter
+            '/C/TDATA/fffe0000/music', # UIX alpha mounts Scene E as C
+            '/c/tdata/fffe0000/music',
+            'C:/TDATA/fffe0000/music'
         ]
         for path in possible_paths:
             try:
